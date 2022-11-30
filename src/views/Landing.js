@@ -4,49 +4,104 @@ import authorJames from "../assets/authorJamesRemoveBg.png";
 import { Outlet, Link } from "react-router-dom";
 import { IconContext } from "react-icons";
 import { AiOutlineRight } from "react-icons/ai";
-
+import { Carousel } from "react-responsive-carousel";
+import hotAugustBook from "../assets/hotAugustBook.jpeg";
+import safetyBook from "../assets/safetyBook.jpeg";
+import prettyPleaseBook from "../assets/prettyPleaseBook.jpeg";
 function Landing() {
   return (
     <>
-      <div className=" overflow-hidden relative md:mt-[88px] mt-[82px] bg-black">
-        <video
-          className="xl:!min-w-[100vw] lg:!min-w-[120vw] md:!min-w-[250vw] !min-w-[350vw]"
-          loop
-          autoPlay
-          muted
-        >
-          <source src={aroundTheWorldVideo} type="video/mp4" />
-          <source src={aroundTheWorldVideo} type="video/ogg" />
-          Your browser does not support the video tag.
-        </video>
-        <div className="absolute top-1/2 -translate-y-1/2 text-white md:text-7xl text-2xl font-Montserrat font-bold ">
-          <div className="flex md:flex-row flex-col justify-center">
-            <div className="space-y-6 md:w-[20%] w-[60%] text-center  mx-auto ">
-              <div>Around The World In Five Lines </div>
-
-              <div className=" text-gray-200 md:text-lg text-md">
-                BUY "Around The World In Five Lines"
-              </div>
-              <a
-                href="https://www.amazon.com/Around-World-Lines-James-Anstead-ebook/dp/B09FRY2XMD/ref=sr_1_1?crid=2YPXSXXLL2JPZ&keywords=around+the+world+in+five+lines+james+b+anstead&qid=1666881346&sprefix=around+the+world+in+five+lines+james+b+anstea%2Caps%2C310&sr=8-1"
-                target="_blank"
-              >
-                <div class="focus:outline-none text-white bg-[white] hover:bg-[#FF9900] hover:border-4 font-medium rounded-lg text-md px-5 md:py-2.5 py-3.5 md:max-w-[270px] max-w-[170px] mx-auto">
-                  <img
-                    className="pt-2 "
-                    src="https://jamesanstead.com/wp-content/uploads/2021/02/580b57fcd9996e24bc43c518-1-300x60.png"
-                    alt=""
-                  />
+      {/* <div className=" h-screen  bg-black relative"></div> */}
+      <div className="h-screen bg-[url('https://windows10spotlight.com/wp-content/uploads/2016/12/87df4d5fc9a63e774b7d62a05279aa84.jpg')] md:mt-[88px] mt-[82px] bg-no-repeat bg-cover flex">
+        <div className="m-auto !w-[80%] ">
+          <div className="text-white text-7xl pl-4 backdrop-blur-lg w-[40%]">
+            Paul Fischetti
+          </div>
+          <div className="">
+            <Carousel
+              infiniteLoop={true}
+              showStatus={false}
+              showArrows={false}
+              autoPlay={true}
+              showIndicators={false}
+              showThumbs={false}
+            >
+              <div className="mx-auto max-w-[600px] ">
+                <div className="text-left backdrop-blur-lg  text-white font-bold text-5xl py-4">
+                  HOT IN AUGUST
                 </div>
-              </a>
-            </div>
-            <div className="md:w-[580px] w-[230px]  mx-auto md:order-last order-first">
-              <img
-                className=""
-                src="https://jamesanstead.com/wp-content/uploads/2021/04/FrontBook-Paperback-1024x1019.png"
-                alt=""
-              />
-            </div>
+                <img className="" src={hotAugustBook} alt="" />
+                <div className="my-4 space-y-4 backdrop-blur-xl  w-[60%] mx-auto">
+                  <div className="mx-auto  text-white max-w-[300px] my-auto text-xl font-semibold">
+                    BUY "HOT IN AUGUST"
+                  </div>
+                  <div className="bg-[white] hover:bg-[#FF9900] rounded-lg px-5 md:py-2.5 py-3.5 max-w-[200px] mx-auto">
+                    <a
+                      href="https://www.amazon.com/Around-World-Lines-James-Anstead-ebook/dp/B09FRY2XMD/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1617999145&sr=1-1"
+                      target="_blank"
+                      class="outline-none text-white font-medium text-md"
+                      rel="noreferrer"
+                    >
+                      <img
+                        className="pt-2 "
+                        src="https://jamesanstead.com/wp-content/uploads/2021/02/580b57fcd9996e24bc43c518-1-300x60.png"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="mx-auto max-w-[600px] ">
+                <div className="text-left backdrop-blur-lg text-white font-bold text-5xl py-4">
+                  THE SAFETY BOOK
+                </div>
+                <img className="" src={safetyBook} alt="" />
+                <div className="my-4 space-y-4 backdrop-blur-xl  w-[60%] mx-auto">
+                  <div className="mx-auto text-white max-w-[300px] my-auto text-xl font-semibold">
+                    BUY "THE SAFETY BOOK"
+                  </div>
+                  <div className="bg-[white] hover:bg-[#FF9900] rounded-lg px-5 md:py-2.5 py-3.5 max-w-[200px] mx-auto">
+                    <a
+                      href="https://www.amazon.com/Around-World-Lines-James-Anstead-ebook/dp/B09FRY2XMD/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1617999145&sr=1-1"
+                      target="_blank"
+                      class="outline-none text-white font-medium text-md"
+                      rel="noreferrer"
+                    >
+                      <img
+                        className="pt-2 "
+                        src="https://jamesanstead.com/wp-content/uploads/2021/02/580b57fcd9996e24bc43c518-1-300x60.png"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="mx-auto max-w-[600px] ">
+                <div className="text-left backdrop-blur-lg text-white font-bold text-5xl py-4">
+                  PRETTY PLEASE
+                </div>
+                <img className="" src={prettyPleaseBook} alt="" />
+                <div className="my-4 space-y-4 backdrop-blur-xl  w-[60%] mx-auto">
+                  <div className="mx-auto text-white max-w-[300px] my-auto text-xl font-semibold">
+                    BUY "PRETTY PLEASE"
+                  </div>
+                  <div className="bg-[white] hover:bg-[#FF9900] rounded-lg px-5 md:py-2.5 py-3.5 max-w-[200px] mx-auto">
+                    <a
+                      href="https://www.amazon.com/Around-World-Lines-James-Anstead-ebook/dp/B09FRY2XMD/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1617999145&sr=1-1"
+                      target="_blank"
+                      class="outline-none text-white font-medium text-md"
+                      rel="noreferrer"
+                    >
+                      <img
+                        className="pt-2 "
+                        src="https://jamesanstead.com/wp-content/uploads/2021/02/580b57fcd9996e24bc43c518-1-300x60.png"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Carousel>
           </div>
         </div>
       </div>
@@ -54,40 +109,25 @@ function Landing() {
       <div className=" bg-black">
         <div className="text-white w-[75%] mx-auto pt-[80px]">
           <div className="lg:text-7xl md:text-5xl text-4xl  pl-2 pb-4">
-            Author James B. <span className="text-[#2A4C9A]">Ansted</span>
+            Paul Edmund Fischetti
           </div>
           <div className="flex md:flex-row flex-col">
-            <div className=" md:min-w-[380px] min-w-[180px] max-w-[380px] md:border-r-8 md:border-b-0 border-b-8 border-[#2A4C9A] mx-auto">
-              <img className="" src={authorJames} alt="" />
+            <div className=" md:min-w-[380px] min-w-[180px] max-w-[380px] mx-auto">
+              <img
+                className=""
+                src="https://m.media-amazon.com/images/S/amzn-author-media-prod/jrp2e8rjck0vf86if1boqanc2f._SX450_.jpg"
+                alt=""
+              />
             </div>
             <div className="md:text-4xl sm:text-2xl text-lg md:text-start text-center flex flex-col justify-center">
-              <div className=" md:pl-8">
-                James B. Anstead's mother fostered a love of literature and
-                appreciation of poetry in him. He began his teaching career in
-                1977. Away from the classroom, he devotes much of his time to
-                basketball. James holds two degrees from Northern Kentucky
-                University: a BA in history and an MA in education. He is
-                currently employed by the Covington Public Schools in Kentucky.
+              <div className="p-8 border-2 border-white rounded-lg">
+                P. E. Fischetti, born and raised in the suburbs of Washington
+                DC, attended Walter Johnson High School and the University of
+                Maryland, where he earned a B.A. in Criminology and a M.S. in
+                Marriage and Family Therapy. He currently lives in Silver
+                Spring, MD with his wife of 34 years. They have two young adult
+                children who live locally.
               </div>
-            </div>
-          </div>
-        </div>
-        <div className="flex justify-center h-[60vh]">
-          <div className="flex flex-col justify-center w-[75%]">
-            <div className="space-y-8">
-              <div className=" text-white sm:text-7xl text-5xl">
-                Book talks on <span className="text-[#1DB954]">Spotify</span>{" "}
-              </div>{" "}
-              <iframe
-                className=""
-                src="https://open.spotify.com/embed/episode/4PC80sEavmd25UQdb8Vqih?utm_source=generator&theme=0"
-                width="100%"
-                height="280"
-                frameBorder="0"
-                allowfullscreen=""
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"
-              ></iframe>
             </div>
           </div>
         </div>
