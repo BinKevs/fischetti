@@ -14,94 +14,104 @@ function Landing() {
       {/* <div className=" h-screen  bg-black relative"></div> */}
       <div className="h-screen bg-[url('https://windows10spotlight.com/wp-content/uploads/2016/12/87df4d5fc9a63e774b7d62a05279aa84.jpg')] md:mt-[88px] mt-[82px] bg-no-repeat bg-cover flex">
         <div className="m-auto !w-[80%] ">
-          <div className="text-white text-7xl pl-4 backdrop-blur-lg w-[40%]">
+          {/* <div className="text-white text-7xl pl-4 backdrop-blur-lg w-[40%]">
             Paul Fischetti
-          </div>
-          <div className="">
-            <Carousel
+          </div> */}
+          <div className="flex space-x-8">
+            {/* <Carousel
               infiniteLoop={true}
               showStatus={false}
               showArrows={false}
               autoPlay={true}
               showIndicators={false}
               showThumbs={false}
-            >
-              <div className="mx-auto max-w-[600px] ">
-                <div className="text-left backdrop-blur-lg  text-white font-bold text-5xl py-4">
+            > */}
+            <div className="mx-auto max-w-[450px] ">
+              <div className="rounded-xl">
+                <div className="text-left bg-white backdrop-blur-lg text-black font-bold text-5xl p-4">
                   HOT IN AUGUST
                 </div>
                 <img className="" src={hotAugustBook} alt="" />
-                <div className="my-4 space-y-4 backdrop-blur-xl  w-[60%] mx-auto">
-                  <div className="mx-auto  text-white max-w-[300px] my-auto text-xl font-semibold">
-                    BUY "HOT IN AUGUST"
-                  </div>
-                  <div className="bg-[white] hover:bg-[#FF9900] rounded-lg px-5 md:py-2.5 py-3.5 max-w-[200px] mx-auto">
-                    <a
-                      href="https://www.amazon.com/Around-World-Lines-James-Anstead-ebook/dp/B09FRY2XMD/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1617999145&sr=1-1"
-                      target="_blank"
-                      class="outline-none text-white font-medium text-md"
-                      rel="noreferrer"
-                    >
-                      <img
-                        className="pt-2 "
-                        src="https://jamesanstead.com/wp-content/uploads/2021/02/580b57fcd9996e24bc43c518-1-300x60.png"
-                        alt=""
-                      />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="mx-auto max-w-[600px] ">
-                <div className="text-left backdrop-blur-lg text-white font-bold text-5xl py-4">
-                  THE SAFETY BOOK
-                </div>
-                <img className="" src={safetyBook} alt="" />
-                <div className="my-4 space-y-4 backdrop-blur-xl  w-[60%] mx-auto">
-                  <div className="mx-auto text-white max-w-[300px] my-auto text-xl font-semibold">
-                    BUY "THE SAFETY BOOK"
-                  </div>
-                  <div className="bg-[white] hover:bg-[#FF9900] rounded-lg px-5 md:py-2.5 py-3.5 max-w-[200px] mx-auto">
-                    <a
-                      href="https://www.amazon.com/Around-World-Lines-James-Anstead-ebook/dp/B09FRY2XMD/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1617999145&sr=1-1"
-                      target="_blank"
-                      class="outline-none text-white font-medium text-md"
-                      rel="noreferrer"
-                    >
-                      <img
-                        className="pt-2 "
-                        src="https://jamesanstead.com/wp-content/uploads/2021/02/580b57fcd9996e24bc43c518-1-300x60.png"
-                        alt=""
-                      />
-                    </a>
+                <div className="space-y-4 text-black bg-white mx-auto">
+                  <div className="rounded-lg px-5 md:py-2.5 py-3.5 mx-auto">
+                    <div>
+                      A Great Baseball Story - "Big Train's Backyard" transports
+                      you to a hot July pennant race where veteran former
+                      all-star 3rd baseman, Alex Santucci, is playing for the
+                      Kansas City Crowns.
+                    </div>
+                    <div className="border-2 border-black max-w-[250px] my-2 p-2 rounded-xl hover:bg-[#FF9900] mx-auto">
+                      <div className="text-xs font-semibold">
+                        BUY "HOT IN AUGUST"
+                      </div>
+                      <a
+                        href="https://www.amazon.com/Around-World-Lines-James-Anstead-ebook/dp/B09FRY2XMD/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1617999145&sr=1-1"
+                        target="_blank"
+                        class="outline-none text-white font-medium text-md"
+                        rel="noreferrer"
+                      >
+                        <img
+                          className="pt-2 "
+                          src="https://jamesanstead.com/wp-content/uploads/2021/02/580b57fcd9996e24bc43c518-1-300x60.png"
+                          alt=""
+                        />
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className="mx-auto max-w-[600px] ">
-                <div className="text-left backdrop-blur-lg text-white font-bold text-5xl py-4">
-                  PRETTY PLEASE
+            </div>
+            <div className="mx-auto max-w-[600px] ">
+              <div className="text-left backdrop-blur-lg text-white font-bold text-4xl py-4">
+                THE SAFETY BOOK
+              </div>
+              <img className="" src={safetyBook} alt="" />
+              <div className="my-4 space-y-4 backdrop-blur-xl  w-[60%] mx-auto">
+                <div className="mx-auto text-white max-w-[300px] my-auto text-xl font-semibold">
+                  BUY "THE SAFETY BOOK"
                 </div>
-                <img className="" src={prettyPleaseBook} alt="" />
-                <div className="my-4 space-y-4 backdrop-blur-xl  w-[60%] mx-auto">
-                  <div className="mx-auto text-white max-w-[300px] my-auto text-xl font-semibold">
-                    BUY "PRETTY PLEASE"
-                  </div>
-                  <div className="bg-[white] hover:bg-[#FF9900] rounded-lg px-5 md:py-2.5 py-3.5 max-w-[200px] mx-auto">
-                    <a
-                      href="https://www.amazon.com/Around-World-Lines-James-Anstead-ebook/dp/B09FRY2XMD/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1617999145&sr=1-1"
-                      target="_blank"
-                      class="outline-none text-white font-medium text-md"
-                      rel="noreferrer"
-                    >
-                      <img
-                        className="pt-2 "
-                        src="https://jamesanstead.com/wp-content/uploads/2021/02/580b57fcd9996e24bc43c518-1-300x60.png"
-                        alt=""
-                      />
-                    </a>
-                  </div>
+                <div className="bg-[white] hover:bg-[#FF9900] rounded-lg px-5 md:py-2.5 py-3.5 max-w-[200px] mx-auto">
+                  <a
+                    href="https://www.amazon.com/Around-World-Lines-James-Anstead-ebook/dp/B09FRY2XMD/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1617999145&sr=1-1"
+                    target="_blank"
+                    class="outline-none text-white font-medium text-md"
+                    rel="noreferrer"
+                  >
+                    <img
+                      className="pt-2 "
+                      src="https://jamesanstead.com/wp-content/uploads/2021/02/580b57fcd9996e24bc43c518-1-300x60.png"
+                      alt=""
+                    />
+                  </a>
                 </div>
               </div>
-            </Carousel>
+            </div>
+            <div className="mx-auto max-w-[600px] ">
+              <div className="text-left backdrop-blur-lg text-white font-bold text-5xl py-4">
+                PRETTY PLEASE
+              </div>
+              <img className="" src={prettyPleaseBook} alt="" />
+              <div className="my-4 space-y-4 backdrop-blur-xl  w-[60%] mx-auto">
+                <div className="mx-auto text-white max-w-[300px] my-auto text-xl font-semibold">
+                  BUY "PRETTY PLEASE"
+                </div>
+                <div className="bg-[white] hover:bg-[#FF9900] rounded-lg px-5 md:py-2.5 py-3.5 max-w-[200px] mx-auto">
+                  <a
+                    href="https://www.amazon.com/Around-World-Lines-James-Anstead-ebook/dp/B09FRY2XMD/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1617999145&sr=1-1"
+                    target="_blank"
+                    class="outline-none text-white font-medium text-md"
+                    rel="noreferrer"
+                  >
+                    <img
+                      className="pt-2 "
+                      src="https://jamesanstead.com/wp-content/uploads/2021/02/580b57fcd9996e24bc43c518-1-300x60.png"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            {/* </Carousel> */}
           </div>
         </div>
       </div>
@@ -119,8 +129,8 @@ function Landing() {
                 alt=""
               />
             </div>
-            <div className="md:text-4xl sm:text-2xl text-lg md:text-start text-center flex flex-col justify-center">
-              <div className="p-8 border-2 border-white rounded-lg">
+            <div className="md:text-4xl sm:text-2xl text-lg md:text-start text-center flex flex-col justify-end">
+              <div className="text-justify">
                 P. E. Fischetti, born and raised in the suburbs of Washington
                 DC, attended Walter Johnson High School and the University of
                 Maryland, where he earned a B.A. in Criminology and a M.S. in
