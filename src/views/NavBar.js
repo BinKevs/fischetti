@@ -17,7 +17,7 @@ const NavBar = () => {
         <div className=" flex flex-wrap justify-between items-center mx-auto">
           <Link to="author" className="flex items-center">
             <span className="md:text-5xl text-xl font-semibold whitespace-nowrap font-Montserrat text-white">
-              Paul Fischetti{" "}
+              P. Edmund Fischetti
             </span>
           </Link>
 
