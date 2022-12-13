@@ -7,15 +7,15 @@ function Author() {
       <div className="bg-black relative flex font-Montserrat md:mt-[88px] mt-[82px]">
         <div className="m-auto text-white w-[80%] space-y-6 ">
           <div className="flex md:flex-row flex-col md:space-y-0 space-y-6 md:space-x-6">
-            <div className="flex justify-start">
+            <div className="flex justify-start ">
               <img
-                className="border-b-4 border-r-4 border-white p-4  min-w-[500px]"
+                className="border-b-4 border-r-4 border-white p-4 "
                 src={authorPaulSafety}
                 alt=""
               />
             </div>
-            <div className="md:text-xl flex flex-col justify-center text-start ">
-              <div className="text-7xl font-bold mx-auto my-8">
+            <div className="md:text-md text-sm flex flex-col justify-center text-start ">
+              <div className="text-4xl md:text-2xl font-bold mb-16">
                 Paul Edmund Fischetti
               </div>
               <div className=" pl-4">
@@ -52,7 +52,7 @@ function Author() {
             </div>
           </div>
           <div className="flex md:flex-row flex-col md:space-y-0 space-y-6 md:space-x-6">
-            <div className="text-xl flex flex-col justify-center text-end ">
+            <div className="md:text-md text-sm flex flex-col justify-center text-end ">
               <div className=" pr-4">
                 Eighteen years younger than his half-brother, Alex Santucci, he
                 hopes to continue three generations of athletic greatness in his

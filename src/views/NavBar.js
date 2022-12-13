@@ -16,8 +16,9 @@ const NavBar = () => {
       >
         <div className=" flex flex-wrap justify-between items-center mx-auto">
           <Link to="author" className="flex items-center">
-            <span className="md:text-5xl text-xl font-semibold whitespace-nowrap font-Montserrat text-white">
-              P. Edmund Fischetti
+            <span className="md:text-3xl text-xl font-semibold whitespace-nowrap font-Montserrat text-white border-2 border-white py-4 pr-4">
+              <span className="bg-white text-black p-2"> Paul Edmund </span>{" "}
+              Fischetti
             </span>
           </Link>
 
