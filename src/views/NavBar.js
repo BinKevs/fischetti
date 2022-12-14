@@ -22,7 +22,7 @@ const NavBar = () => {
             </span>
           </Link>
 
-          <div class="md:hidden">
+          <div class="hamburgerDiv">
             <div
               id="hamburger"
               className={hamBurgetState ? "open" : ""}
@@ -42,7 +42,7 @@ const NavBar = () => {
             </div>
           </div>
           <div
-            className="navLink hidden w-full md:flex md:w-auto"
+            className="navLink navLinkDiv  w-full  md:w-auto"
             id="navbar-default"
           >
             <ul className="flex  p-4 text-[#C8C7D8] space-x-12 mt-0 lg:mr-8 mr-4 text-md font-medium ">

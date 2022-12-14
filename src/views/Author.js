@@ -1,59 +1,62 @@
-import authorPaulSafety from "../assets/safetyWtAuthor.jpeg";
-import authorPaulPrettyPlease from "../assets/prettyPleaseWthAuthor.jpeg";
+import authorPaulSafety from "../assets/safetyWtAuthor-removebg.png";
+import authorPaulPrettyPlease from "../assets/prettyPleaseWthAuthor-removeBg.png";
 
 function Author() {
   return (
     <>
       <div className="bg-black relative flex font-Montserrat md:mt-[88px] mt-[82px]">
         <div className="m-auto text-white w-[80%] space-y-6 ">
-          <div className="flex md:flex-row flex-col md:space-y-0 space-y-6 md:space-x-6">
-            <div className="flex justify-start ">
+          <div className="flex md:space-y-0 space-y-6 md:space-x-6 justify-center authorFirstDiv">
+            <div className="flex  min-w-[35.5%] mx-auto">
               <img
                 className="border-b-4 border-r-4 border-white p-4 "
                 src={authorPaulSafety}
                 alt=""
               />
             </div>
-            <div className="md:text-md text-sm flex flex-col justify-center text-start ">
-              <div className="text-4xl md:text-2xl font-bold mb-16">
-                Paul Edmund Fischetti
-              </div>
-              <div className=" pl-4">
-                P. E. Fischetti, born and raised in the suburbs of Washington
-                DC, attended Walter Johnson High School and the University of
-                Maryland, where he earned a B.A. in Criminology and a M.S. in
-                Marriage and Family Therapy. He currently lives in Silver
-                Spring, MD with his wife of 34 years. They have two young adult
-                children who live locally.
-                <br />
-                <br />
-                His soon to be available, third novel "Miss Pretty Please", ends
-                the trilogy about the Finelli & Santucci families. Set in 2029
-                and beyond, fifteen year-old, Annie Finelli & twenty-six,
-                year-old, Russell Santucci, are the main characters who meet and
-                learn to manage their future stardoms.
-                <br />
-                <br />
-                His fourth novel, "Sunshine Uprising" set in Florida's Space
-                Coast in 2022 and beyond, follows twenty-eight year-old Peg
-                Patterson and her challenges, living in the fictional town of
-                Cape Atlantic. Publishing is planned for 2022.
-                <br />
-                <br />
-                His first novel, "Big Train's Backyard", follows the career of
-                an aging and struggling, former All-Star, Alex Santucci, who as
-                a slugging third baseman, suddenly finds his power stroke in the
-                middle of the 2012 baseball season. Published in March 2013.
-                <br />
-                <br />
-                His second novel, "The Safety", follows a young superstar
-                football player, Guy Finelli, and his ascension to greatness.
+            <div className="md:text-md text-sm flex text-start ">
+              <div className="my-auto border-b-4 border-l-4 border-white p-8">
+                <div className="text-4xl md:text-2xl font-bold mb-16">
+                  Paul Edmund Fischetti
+                </div>
+                <div className=" pl-4">
+                  P. E. Fischetti, born and raised in the suburbs of Washington
+                  DC, attended Walter Johnson High School and the University of
+                  Maryland, where he earned a B.A. in Criminology and a M.S. in
+                  Marriage and Family Therapy. He currently lives in Silver
+                  Spring, MD with his wife of 34 years. They have two young
+                  adult children who live locally.
+                  <br />
+                  <br />
+                  His soon to be available, third novel "Miss Pretty Please",
+                  ends the trilogy about the Finelli & Santucci families. Set in
+                  2029 and beyond, fifteen year-old, Annie Finelli & twenty-six,
+                  year-old, Russell Santucci, are the main characters who meet
+                  and learn to manage their future stardoms.
+                  <br />
+                  <br />
+                  His fourth novel, "Sunshine Uprising" set in Florida's Space
+                  Coast in 2022 and beyond, follows twenty-eight year-old Peg
+                  Patterson and her challenges, living in the fictional town of
+                  Cape Atlantic. Publishing is planned for 2022.
+                  <br />
+                  <br />
+                  His first novel, "Big Train's Backyard", follows the career of
+                  an aging and struggling, former All-Star, Alex Santucci, who
+                  as a slugging third baseman, suddenly finds his power stroke
+                  in the middle of the 2012 baseball season. Published in March
+                  2013.
+                  <br />
+                  <br />
+                  His second novel, "The Safety", follows a young superstar
+                  football player, Guy Finelli, and his ascension to greatness.
+                </div>
               </div>
             </div>
           </div>
-          <div className="flex md:flex-row flex-col md:space-y-0 space-y-6 md:space-x-6">
+          <div className="flex md:space-y-0 space-y-6 md:space-x-6 authorFirstDiv">
             <div className="md:text-md text-sm flex flex-col justify-center text-end ">
-              <div className=" pr-4">
+              <div className=" pr-4 border-t-4 border-r-4 border-white p-8">
                 Eighteen years younger than his half-brother, Alex Santucci, he
                 hopes to continue three generations of athletic greatness in his
                 family to become a super hero by 2020. Published in June 2015.
