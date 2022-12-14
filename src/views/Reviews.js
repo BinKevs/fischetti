@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { IconContext } from "react-icons";
 import { AiFillStar } from "react-icons/ai";
+import { Outlet, Link } from "react-router-dom";
+import { AiOutlineRight } from "react-icons/ai";
 
 function Reviews() {
   const [review, setReview] = useState([
@@ -67,74 +69,80 @@ function Reviews() {
     <>
       <div className="h-full bg-black relative flex md:mt-[88px] mt-[82px] ">
         <div className="m-auto w-[80%] text-white">
-          <div>
-            <div className="text-7xl font-bold py-6 uppercase text-[#13699B]">
-              Kirkus
-            </div>
-            <div className="text-gray-400 text-md ">
-              <div>Release Date: June 28, 2018</div>
-              <div>ISBN: 978-1-4809-5936-1</div>
-              <div>Page Count: 46</div>
-              <div>Publisher: Dorrance Publishing Co.</div>
-              <div>Review Posted Online: Dec. 18, 2018</div>
-            </div>
-            <div className="text-gray-300 text-xl my-4 ">
-              {" "}
-              " A book of poetry that works a classic form for all it’s worth."
-            </div>
-            <div className="text-gray-300 text-lg border-l-4 pl-4 border-[#13699B] ml-8">
-              “Do not try to do everything. Do one thing well.” So said the late
-              Steve Jobs, giving advice that debut poet Anstead seems to have
-              taken quite seriously. The latter’s new collection does one thing
-              and one thing only: the limerick. This, of course, is the most
-              homespun of poetic forms, and the best-known example has arguably
-              the most famous first line in all literature: “There once was a
-              man from Nantucket…” This chestnut isn’t as old as one might
-              think; it appeared in the Princeton Tiger in 1902, attributed to
-              one Dayton Voorhees. Not to be outdone, Anstead offers roughly 200
-              more here. Like Voorhees’ original, each opens in a particular
-              locale (hence the volume’s title). For example: “An eccentric
-              young man from Toledo / Adopted “total self-expression” as his
-              credo. / So every day, exactly at noon, / He would cause his
-              neighbors to swoon / When he circled the block in his Speedo.”{" "}
-              <br /> <br /> If you’re not a fan of the domestic setting, the
-              poet is also quite happy to take you abroad: “An inventive
-              short-order cook from Swaziland / Thought the soup du jour was
-              rather bland. / But in his zeal to improve the corn chowder, / He
-              hastily added so much curry powder, / That one taste was all
-              anyone could stand.” Anstead can go on—and does—and it’s a model
-              that may feel repetitive. However, this compilation offers more
-              smiles than one might anticipate. The only problem is that the
-              author has a bad habit of trying to cram too many words into a
-              line. The third and fourth lines of a limerick, combined,
-              traditionally skip by in 12 syllables, but Anstead’s too often
-              push past 20. (Take the Swaziland entry above as just one example
-              of this.) Fortunately, at the end of the day, this tic doesn’t
-              ruin the fun. Anstead packs lots of joy into tiny packages in this
-              slim but playful collection.
-            </div>
-            <div className="text-lg my-4">
-              Source :{" "}
-              <a
-                className=" cursor-pointer text-blue-600 font-bold"
-                target="_Blank"
-                href="https://www.kirkusreviews.com/book-reviews/james-b-anstead/around-the-world-in-five-lines/"
-                rel="noreferrer"
-              >
-                www.kirkusreviews.com
-              </a>
+          <div className="">
+            <div className="grid grid-cols-2 gap-8  glimpseReviewDiv">
+              <div className="">
+                <div className="py-8 uppercase text-white text-3xl font-semibold">
+                  Let the Wonders of Second Chances Captivate You in P.E.
+                  Fischetti’s Book “The Safety”
+                </div>
+                <div className="py-4 text-gray-400 text-xl font-semibold">
+                  Silver Spring, MD – WEBWIRE – Friday, December 9, 2022
+                </div>
+                <div className="text-gray-400 text-md text-justify">
+                  The narrative, which takes place in the year 2029 and beyond,
+                  centers on Annie Finelli, a fifteen-year-old football star and
+                  Russell Santucci, a twenty-six-year-old pianist and baseball
+                  hero Alex Santucci’s nephew. Twenty years early in his midlife
+                  crisis, Russell only discovers meaning in his life by playing
+                  the piano. He battles in managing his desire for sex, drug
+                  use, and alcohol consumption.
+                </div>
+                <Link to="reviews" className="text-lg py-12 text-white flex ">
+                  Read More{" "}
+                  <IconContext.Provider
+                    value={{
+                      size: "1.8em",
+                    }}
+                  >
+                    <AiOutlineRight />
+                  </IconContext.Provider>
+                </Link>
+              </div>
+              <div className="">
+                <div className="py-8 uppercase text-white text-3xl font-semibold">
+                  Explore Intriguing Lives in “Miss Pretty Please” by P.E.
+                  Fischetti
+                </div>
+                <div className="py-4 text-gray-400 text-xl font-semibold">
+                  Oro Valley, AZ and Silver Spring, MD – WEBWIRE – Monday,
+                  December 5, 2022
+                </div>
+                <div className="text-gray-400 text-md text-justify">
+                  The narrative, which takes place in the year 2029 and beyond,
+                  centers on Annie Finelli, a fifteen-year-old football star and
+                  Russell Santucci, a twenty-six-year-old pianist and baseball
+                  hero Alex Santucci’s nephew. Twenty years early in his midlife
+                  crisis, Russell only discovers meaning in his life by playing
+                  the piano. He battles in managing his desire for sex, drug
+                  use, and alcohol consumption.
+                </div>
+                <Link to="reviews" className="text-lg py-12 text-white flex ">
+                  Read More{" "}
+                  <IconContext.Provider
+                    value={{
+                      size: "1.8em",
+                    }}
+                  >
+                    <AiOutlineRight />
+                  </IconContext.Provider>
+                </Link>
+              </div>
             </div>
           </div>
 
           <div>
-            <div className="text-7xl font-bold py-6 text-white text-right">
-              Amazon
+            <div className="text-5xl font-bold text-white">Amazon</div>
+            <div className="text-4xl font-bold py-6 text-white text-center">
+              “The Safety”
             </div>
             <div className="grid md:grid-cols-2 grid-cols-1 gap-6">
               {review.map((item, index) => {
                 return (
                   <div
-                    className="border-r-2 border-b-2 rounded-lg p-6 italic "
+                    className={`${
+                      index % 2 === 0 ? "border-r-2" : "border-l-2"
+                    } border-b-2 p-6 italic`}
                     key={index}
                   >
                     <div className="flex">
