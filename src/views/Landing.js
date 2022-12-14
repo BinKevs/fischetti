@@ -14,14 +14,14 @@ import amazonCom from "../assets/amazonCom.png";
 function Landing() {
   return (
     <>
-      <div className="landingDiv bg-[url('https://windows10spotlight.com/wp-content/uploads/2016/12/87df4d5fc9a63e774b7d62a05279aa84.jpg')] md:mt-[88px] mt-[82px]  bg-no-repeat bg-cover flex">
+      <div className="landingDiv md:mt-[88px] mt-[82px] bg-[url('https://media.architecturaldigest.com/photos/58dbe50c78266a4438076739/4:3/w_4212,h_3159,c_limit/Secrets%20from%20Baseball%20Stadiums%201.jpg')] bg-no-repeat bg-cover bg-bottom flex">
         <div className="m-auto !w-[80%] ">
           <div className="flex flex-wrap justify-center space lg:space-y-0 space-y-8">
             <div className="mx-auto max-w-[450px] ">
               <div className="">
                 <div className="text-left text-white font-bold md:text-4xl text-2xl p-4">
                   <span className=" backdrop-blur-3xl bg-black/20">
-                    HOT IN AUGUST
+                    Big Train's Backyard
                   </span>
                 </div>
 
@@ -40,10 +40,10 @@ function Landing() {
                     </div>
                     <div className=" bg-white shadow-lg shadow-black/80 max-w-[250px] lg:w-auto w-[180px] my-2 p-2 rounded-xl hover:bg-[#FF9900] ">
                       <div className="text-xs font-semibold text-black">
-                        BUY "HOT IN AUGUST"
+                        BUY "Big Train's Backyard"
                       </div>
                       <a
-                        href="https://www.amazon.com/Around-World-Lines-James-Anstead-ebook/dp/B09FRY2XMD/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1617999145&sr=1-1"
+                        href="https://www.amazon.com/Big-Trains-Backyard-Edmund-Fischetti-ebook/dp/B00CHVBARM?ref_=ast_sto_dp"
                         target="_blank"
                         class="outline-none text-white font-medium text-md "
                         rel="noreferrer"
@@ -82,7 +82,7 @@ function Landing() {
                         BUY "THE SAFETY BOOK"
                       </div>
                       <a
-                        href="https://www.amazon.com/Around-World-Lines-James-Anstead-ebook/dp/B09FRY2XMD/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1617999145&sr=1-1"
+                        href="https://www.amazon.com/Safety-P-Fischetti-ebook/dp/B010QZ12OQ?ref_=ast_sto_dp"
                         target="_blank"
                         class="outline-none text-white font-medium text-md "
                         rel="noreferrer"
@@ -121,7 +121,7 @@ function Landing() {
                         BUY "PRETTY PLEASE"
                       </div>
                       <a
-                        href="https://www.amazon.com/Around-World-Lines-James-Anstead-ebook/dp/B09FRY2XMD/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1617999145&sr=1-1"
+                        href="https://www.amazon.com/Miss-Pretty-Please-P-Fischetti/dp/1646106717"
                         target="_blank"
                         class="outline-none text-white font-medium text-md "
                         rel="noreferrer"
