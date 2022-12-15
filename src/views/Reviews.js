@@ -70,7 +70,7 @@ function Reviews() {
       <div className="h-full bg-black relative flex md:mt-[88px] mt-[82px] ">
         <div className="m-auto w-[80%] text-white">
           <div className="">
-            <div className="grid grid-cols-2 gap-8  glimpseReviewDiv">
+            <div className="grid grid-cols-1 gap-8  glimpseReviewDiv">
               <div className="">
                 <div className="py-8 uppercase text-white text-3xl font-semibold">
                   Let the Wonders of Second Chances Captivate You in P.E.
@@ -89,7 +89,7 @@ function Reviews() {
                   use, and alcohol consumption.
                 </div>
                 <Link to="reviews" className="text-lg py-12 text-white flex ">
-                  Read More{" "}
+                  Source{" "}
                   <IconContext.Provider
                     value={{
                       size: "1.8em",
@@ -118,7 +118,7 @@ function Reviews() {
                   use, and alcohol consumption.
                 </div>
                 <Link to="reviews" className="text-lg py-12 text-white flex ">
-                  Read More{" "}
+                  Source{" "}
                   <IconContext.Provider
                     value={{
                       size: "1.8em",

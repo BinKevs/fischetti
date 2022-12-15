@@ -111,7 +111,7 @@ function Author() {
             />
           </div>
           <div class="flex bg-black text-white p-10">
-            <div class=" my-auto">
+            <div class=" my-auto px-16">
               <h1 class="text-3xl uppercase">Paul Edmund Fischetti</h1>
               <p class="font-semibold mb-5">Writer</p>
               <p className=" overflow-y-scroll max-h-[65vh]">
@@ -122,21 +122,25 @@ function Author() {
                 Spring, MD with his wife of 34 years. They have two young adult
                 children who live locally.
                 <br />
+                <br />
                 His soon to be available, third novel "Miss Pretty Please", ends
                 the trilogy about the Finelli & Santucci families. Set in 2029
                 and beyond, fifteen year-old, Annie Finelli & twenty-six,
                 year-old, Russell Santucci, are the main characters who meet and
                 learn to manage their future stardoms.
                 <br />
+                <br />
                 His fourth novel, "Sunshine Uprising" set in Florida's Space
                 Coast in 2022 and beyond, follows twenty-eight year-old Peg
                 Patterson and her challenges, living in the fictional town of
                 Cape Atlantic. Publishing is planned for 2022.
                 <br />
+                <br />
                 His first novel, "Big Train's Backyard", follows the career of
                 an aging and struggling, former All-Star, Alex Santucci, who as
                 a slugging third baseman, suddenly finds his power stroke in the
                 middle of the 2012 baseball season. Published in March 2013.
+                <br />
                 <br />
                 His second novel, "The Safety", follows a young superstar
                 football player, Guy Finelli, and his ascension to greatness.
@@ -153,6 +157,7 @@ function Author() {
                 residential Real Estate as well as re-modeling houses and
                 re-selling them.
                 <br />
+                <br />
                 Since Oct. 2016, he has lost fifty-five pounds and survived a
                 five-way, open-heart surgery in Oct. 2019. He has recovered
                 beautifully and stays physically active. Since he was a
@@ -162,6 +167,7 @@ function Author() {
                 in DC, watching the eventual World Series Champion, NY Yankees,
                 with Mickey Mantle & Roger Maris. The Senators won 4-1.
                 <br />
+                <br />
                 He has spent parts of the past eight winters in their condo on
                 the beach in Cape Canaveral, Florida walking on the sand,
                 swimming in the ocean, watching the occasional Space X
@@ -170,9 +176,6 @@ function Author() {
                 and smelling the night air as the moon crosses the sky.
                 <br />
               </p>
-              <button class="bg-black rounded-md py-3 px-7 mt-6 text-white">
-                Email Me
-              </button>
             </div>
           </div>
         </div>
