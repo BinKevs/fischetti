@@ -1,4 +1,3 @@
-import authorPaulSafety from "../assets/safetyWtAuthor-removebg.png";
 import authorPaulPrettyPlease from "../assets/prettyPleaseWthAuthor-removeBg.png";
 
 function Author() {

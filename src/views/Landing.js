@@ -1,7 +1,4 @@
-import aroundTheWorldVideo from "../assets/spaceEarthTemplate.mp4";
-import HollywoodBookReviewLogo from "../assets/HollywoodBookReviewLogo.png";
-import authorJames from "../assets/authorJamesRemoveBg.png";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { IconContext } from "react-icons";
 import { AiOutlineRight } from "react-icons/ai";
 
