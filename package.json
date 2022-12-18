@@ -1,5 +1,6 @@
 {
   "name": "auhor-book-website",
+  "homepage": "https://BinKevs.github.io/fischetti",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
