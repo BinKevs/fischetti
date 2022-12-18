@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.c08e657c.css",
-    "main.js": "/static/js/main.a610779d.js",
+    "main.css": "/static/css/main.6296c026.css",
+    "main.js": "/static/js/main.2a84a906.js",
     "static/js/787.fa1be493.chunk.js": "/static/js/787.fa1be493.chunk.js",
-    "static/media/spaceEarthTemplate.mp4": "/static/media/spaceEarthTemplate.e8ad99d4e34cd0076351.mp4",
-    "static/media/aroundTheWorldWithBG.jpg": "/static/media/aroundTheWorldWithBG.b80e8de05e827923fded.jpg",
-    "static/media/authorJamesRemoveBg.png": "/static/media/authorJamesRemoveBg.6a39bc043a67132d1681.png",
-    "static/media/aroundTheWorldWithBG2.jpg": "/static/media/aroundTheWorldWithBG2.472db8ec2892528ef49e.jpg",
-    "static/media/authorJames.jpg": "/static/media/authorJames.12c5f90a9f36bd9a1894.jpg",
-    "static/media/aroundTheWorldFandB.jpg": "/static/media/aroundTheWorldFandB.2712ed2518d3a934ece5.jpg",
-    "static/media/authorJames2.jpg": "/static/media/authorJames2.cafab7319517ccbad0d9.jpg",
+    "static/media/hotAugustWtStyle.jpeg": "/static/media/hotAugustWtStyle.163c9794bb13ef8dbf02.jpeg",
+    "static/media/safetyWtGrass.jpeg": "/static/media/safetyWtGrass.0c2ef605d7ab69c650e8.jpeg",
+    "static/media/safetyWtStyle.jpeg": "/static/media/safetyWtStyle.25328d3e5f75ec1bae4e.jpeg",
+    "static/media/prettyPleaseWtGrass.jpeg": "/static/media/prettyPleaseWtGrass.82a5fba24e77c26266c8.jpeg",
+    "static/media/prettyPleaseWthAuthor-removeBg.png": "/static/media/prettyPleaseWthAuthor-removeBg.9b6965a8775ef6bf3719.png",
+    "static/media/paulCollectionImages.jpg": "/static/media/paulCollectionImages.018ebdd0908ed359f9c7.jpg",
+    "static/media/hotAugustBook.jpeg": "/static/media/hotAugustBook.ce138fb0f3314c107c47.jpeg",
+    "static/media/safetyBook.jpeg": "/static/media/safetyBook.a35f80f24cc62fd6f39a.jpeg",
+    "static/media/prettyPleaseBook.jpeg": "/static/media/prettyPleaseBook.e1189f94ffc356b267d1.jpeg",
     "static/media/stoneHengeWhite.png": "/static/media/stoneHengeWhite.6116356856dcc9b07082.png",
-    "static/media/HollywoodBookReviewLogo.png": "/static/media/HollywoodBookReviewLogo.988659b2f88b901a239d.png",
     "index.html": "/index.html",
-    "main.c08e657c.css.map": "/static/css/main.c08e657c.css.map",
-    "main.a610779d.js.map": "/static/js/main.a610779d.js.map",
+    "main.6296c026.css.map": "/static/css/main.6296c026.css.map",
+    "main.2a84a906.js.map": "/static/js/main.2a84a906.js.map",
     "787.fa1be493.chunk.js.map": "/static/js/787.fa1be493.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c08e657c.css",
-    "static/js/main.a610779d.js"
+    "static/css/main.6296c026.css",
+    "static/js/main.2a84a906.js"
   ]
 }
