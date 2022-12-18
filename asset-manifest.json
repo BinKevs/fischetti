@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.6296c026.css",
-    "main.js": "/static/js/main.2a84a906.js",
-    "static/js/787.fa1be493.chunk.js": "/static/js/787.fa1be493.chunk.js",
-    "static/media/hotAugustWtStyle.jpeg": "/static/media/hotAugustWtStyle.163c9794bb13ef8dbf02.jpeg",
-    "static/media/safetyWtGrass.jpeg": "/static/media/safetyWtGrass.0c2ef605d7ab69c650e8.jpeg",
-    "static/media/safetyWtStyle.jpeg": "/static/media/safetyWtStyle.25328d3e5f75ec1bae4e.jpeg",
-    "static/media/prettyPleaseWtGrass.jpeg": "/static/media/prettyPleaseWtGrass.82a5fba24e77c26266c8.jpeg",
-    "static/media/prettyPleaseWthAuthor-removeBg.png": "/static/media/prettyPleaseWthAuthor-removeBg.9b6965a8775ef6bf3719.png",
-    "static/media/paulCollectionImages.jpg": "/static/media/paulCollectionImages.018ebdd0908ed359f9c7.jpg",
-    "static/media/hotAugustBook.jpeg": "/static/media/hotAugustBook.ce138fb0f3314c107c47.jpeg",
-    "static/media/safetyBook.jpeg": "/static/media/safetyBook.a35f80f24cc62fd6f39a.jpeg",
-    "static/media/prettyPleaseBook.jpeg": "/static/media/prettyPleaseBook.e1189f94ffc356b267d1.jpeg",
-    "static/media/stoneHengeWhite.png": "/static/media/stoneHengeWhite.6116356856dcc9b07082.png",
-    "index.html": "/index.html",
-    "main.6296c026.css.map": "/static/css/main.6296c026.css.map",
-    "main.2a84a906.js.map": "/static/js/main.2a84a906.js.map",
-    "787.fa1be493.chunk.js.map": "/static/js/787.fa1be493.chunk.js.map"
+    "main.css": "/fischetti/static/css/main.6296c026.css",
+    "main.js": "/fischetti/static/js/main.82f8bea3.js",
+    "static/js/787.fa1be493.chunk.js": "/fischetti/static/js/787.fa1be493.chunk.js",
+    "static/media/hotAugustWtStyle.jpeg": "/fischetti/static/media/hotAugustWtStyle.163c9794bb13ef8dbf02.jpeg",
+    "static/media/safetyWtGrass.jpeg": "/fischetti/static/media/safetyWtGrass.0c2ef605d7ab69c650e8.jpeg",
+    "static/media/safetyWtStyle.jpeg": "/fischetti/static/media/safetyWtStyle.25328d3e5f75ec1bae4e.jpeg",
+    "static/media/prettyPleaseWtGrass.jpeg": "/fischetti/static/media/prettyPleaseWtGrass.82a5fba24e77c26266c8.jpeg",
+    "static/media/prettyPleaseWthAuthor-removeBg.png": "/fischetti/static/media/prettyPleaseWthAuthor-removeBg.9b6965a8775ef6bf3719.png",
+    "static/media/paulCollectionImages.jpg": "/fischetti/static/media/paulCollectionImages.018ebdd0908ed359f9c7.jpg",
+    "static/media/hotAugustBook.jpeg": "/fischetti/static/media/hotAugustBook.ce138fb0f3314c107c47.jpeg",
+    "static/media/safetyBook.jpeg": "/fischetti/static/media/safetyBook.a35f80f24cc62fd6f39a.jpeg",
+    "static/media/prettyPleaseBook.jpeg": "/fischetti/static/media/prettyPleaseBook.e1189f94ffc356b267d1.jpeg",
+    "static/media/stoneHengeWhite.png": "/fischetti/static/media/stoneHengeWhite.6116356856dcc9b07082.png",
+    "index.html": "/fischetti/index.html",
+    "main.6296c026.css.map": "/fischetti/static/css/main.6296c026.css.map",
+    "main.82f8bea3.js.map": "/fischetti/static/js/main.82f8bea3.js.map",
+    "787.fa1be493.chunk.js.map": "/fischetti/static/js/787.fa1be493.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6296c026.css",
-    "static/js/main.2a84a906.js"
+    "static/js/main.82f8bea3.js"
   ]
 }
