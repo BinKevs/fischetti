@@ -8,61 +8,63 @@ function Reviews() {
   const [review, setReview] = useState([
     {
       message:
-        "Fun, witty and creative! What a clever idea for a book. What an awesome teacher!",
-      creator: "Angela V",
+        "Guy Finelli as The Safety, is an emulation to those who believe in the miracles of second chances.",
+      creator: "Shobana Gomes",
+    },
+    {
+      message: "He was always good in school",
+      creator: "Jay M",
+    },
+    {
+      message: "A Job Well Done",
+      creator: "Barbara Walker",
+    },
+    {
+      message: "The SAFETY is an undisputed WINNER!!",
+      creator: "Bill Giuliani",
+    },
+    {
+      message: "A Win-Win for P. Edmund Fischetti",
+      creator: "Annie",
+    },
+    {
+      message: "Another Winner",
+      creator: "Richard Murphy",
+    },
+    {
+      message: " The past and now of football , suspense and drama .",
+      creator: "MarianPhilly",
     },
     {
       message:
-        "Fabulous limerick writing! Anyone can enjoy this lovely written book, giggles galore.",
-      creator: "Meredith Jo",
+        "5.0 out of 5 stars I was anxious to get to the end to read the conclusion and I was not disappointed. If you enjoyed The Big Trains Back Yard",
+      creator: "willy23",
     },
     {
       message:
-        "The book Around the World in Five Lines takes you on an adventure. I bought this book for my grandchildren. When we read a limerick we google the location to find out more about the place. They love learning about different spots in the world.",
-      creator: "GrannyBeBe",
+        "5.0 out of 5 stars The author's second novel is as good as, if not better",
+      creator: "Joseph A. Ciano",
+    },
+    {
+      message: "Fischetti Creates a Superhero!",
+      creator: "kevin bonner",
+    },
+    {
+      message: "You win with defense; or do you?",
+      creator: "JN",
     },
     {
       message:
-        "Limerick writing is very precise, and follows regimented discipline. In just five lines, the author has to write a beginning middle and end to to this particular type of poetry. This book takes the reader on a journey not only around the world by naming new places, stating a predicament. and finally. a playful solution all in just fine lines. If you like to read different kinds of poetry, this is a great book.",
-      creator: "Helena Graves",
+        "Edmund Fischetti proves again he is a master of excellent sports, family and compassion novels",
+      creator: "RMIII",
     },
     {
-      message:
-        "Mr. Anstead's Around the World in 5 Lines is a treat for all lovers of the written word. He takes you to many unknown places around the world! It is humor mixed with geography a treat for the entire family!",
-      creator: "Amazon Customer",
+      message: "I fell in love with the family",
+      creator: "	Kathi",
     },
     {
-      message:
-        "James is a very gifted gentleman who has used limericks to expose his love for language and the world. James has created vivid imagery in five lines. If you love traveling and language, this is a definite purchase.",
-      creator: "Celeste Hill Brockett",
-    },
-    {
-      message:
-        "Around the World in Five Lines......loved it! Very sophisticated, showing a great deal of worldly experiences! The limericks in this book make you chuckle! Great read! Dawn",
-      creator: "Dawn",
-    },
-    {
-      message:
-        "Reviewed in the United States on November 24, 2018 These limericks made me want to find out exactly where the cities and towns were located. It was alot of fun to share with family and friends.",
-      creator: "Cullen",
-    },
-    {
-      message:
-        "A really fun gift I received this year the Adventures and the places you go in this book I love reading them to my kids",
-      creator: "january",
-    },
-    {
-      message:
-        "Witty and fun. Must read. These five lines will take you to the corners of the world with excitement and comedy.",
-      creator: "josh jones",
-    },
-    {
-      message: "Very enjoyable read. Funny and smart!",
-      creator: "Roger franxman",
-    },
-    {
-      message: "Eclectic samples of life in five lines.",
-      creator: "Timothy Mercer",
+      message: "The Safety - Taking Chances and Making A Difference",
+      creator: "Jill Steier",
     },
   ]);
   return (

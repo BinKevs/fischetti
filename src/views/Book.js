@@ -1,8 +1,7 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-
 import hotAugustWtStyle from "../assets/hotAugustWtStyle.jpeg";
-
 import safetyWtStyle from "../assets/safetyWtStyle.jpeg";
+import missPrettyPleaseWtStyle from "../assets/missPrettyPleaseWtStyle.jpg";
 
 import React, { useState } from "react";
 function Book() {
@@ -16,8 +15,6 @@ function Book() {
           <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
               Hot in August
-              {/* <br class="hidden lg:inline-block" />
-              readymade gluten */}
             </h1>
             <p
               className={`mb-8 leading-relaxed ${
@@ -81,7 +78,7 @@ function Book() {
             <img
               class="object-cover object-center rounded"
               alt="hero"
-              src={safetyWtStyle}
+              src={missPrettyPleaseWtStyle}
             />
           </div>
           <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
