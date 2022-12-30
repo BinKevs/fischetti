@@ -168,6 +168,7 @@ function Landing() {
                 </IconContext.Provider>
               </Link>
             </div>
+
             <div className=" md:min-w-[25%]  mx-auto flex">
               <img
                 className="shadow-lg shadow-white/60 my-auto"
@@ -177,7 +178,25 @@ function Landing() {
             </div>
           </div>
         </div>
-
+        <div className="flex justify-center h-[60vh]">
+          <div className="flex flex-col justify-center w-[75%]">
+            <div className="space-y-8">
+              <div className=" text-white sm:text-7xl text-5xl">
+                Book talks on <span className="text-[#1DB954]">Spotify</span>{" "}
+              </div>{" "}
+              <iframe
+                className=""
+                src="https://open.spotify.com/embed/episode/5hdoHPPcDxcAyqHFG1rCbS?utm_source=generator"
+                width="100%"
+                height="280"
+                frameBorder="0"
+                allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
         <div className="w-[75%] mx-auto">
           <div className="grid grid-cols-2 gap-8  glimpseReviewDiv">
             <div className="">
