@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import hotAugustBook from "../assets/hotAugustBook.jpeg";
+import hotAugustBook from "../assets/hotInAugustWtGrass.jpeg";
 import safetyBookWtGrass from "../assets/safetyWtGrass.jpeg";
 import prettyPleaseWtGrass from "../assets/prettyPleaseWtGrass.jpeg";
 import { IconContext } from "react-icons";
@@ -7,12 +7,6 @@ import { AiOutlineRight, AiOutlineAmazon } from "react-icons/ai";
 function Order() {
   return (
     <>
-      {/* autoPlay={true} */}
-      {/* <img
-            className="h-full"
-            src="https://windows10spotlight.com/wp-content/uploads/2016/12/87df4d5fc9a63e774b7d62a05279aa84.jpg"
-            alt=""
-          /> */}
       <div className="h-full  md:mt-[88px]  mt-[82px] py-[5%] bg-[url('https://windows10spotlight.com/wp-content/uploads/2016/12/87df4d5fc9a63e774b7d62a05279aa84.jpg')] bg-no-repeat bg-cover flex">
         <div className="m-auto lg:w-[60%] w-[90%]">
           <div className="border-2 ">
@@ -22,7 +16,7 @@ function Order() {
             <div className="border-2">
               <img
                 className="lg:max-w-[60%] mx-auto"
-                src={safetyBookWtGrass}
+                src={hotAugustBook}
                 alt=""
               />
             </div>
