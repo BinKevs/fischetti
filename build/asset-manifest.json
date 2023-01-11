@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/fischetti/static/css/main.723d29a1.css",
-    "main.js": "/fischetti/static/js/main.f033d7aa.js",
+    "main.css": "/fischetti/static/css/main.33c42a62.css",
+    "main.js": "/fischetti/static/js/main.ec87ab5c.js",
     "static/js/787.fa1be493.chunk.js": "/fischetti/static/js/787.fa1be493.chunk.js",
     "static/media/missPrettyPleaseWtStyle.jpg": "/fischetti/static/media/missPrettyPleaseWtStyle.6eefc3ff1ec7e969586c.jpg",
     "static/media/hotAugustWtStyle.jpeg": "/fischetti/static/media/hotAugustWtStyle.163c9794bb13ef8dbf02.jpeg",
     "static/media/safetyWtGrass.jpeg": "/fischetti/static/media/safetyWtGrass.0c2ef605d7ab69c650e8.jpeg",
+    "static/media/hotInAugustWtGrass.jpeg": "/fischetti/static/media/hotInAugustWtGrass.10ba66ede7a2b62aed7f.jpeg",
     "static/media/safetyWtStyle.jpeg": "/fischetti/static/media/safetyWtStyle.25328d3e5f75ec1bae4e.jpeg",
     "static/media/prettyPleaseWtGrass.jpeg": "/fischetti/static/media/prettyPleaseWtGrass.82a5fba24e77c26266c8.jpeg",
     "static/media/prettyPleaseWthAuthor-removeBg.png": "/fischetti/static/media/prettyPleaseWthAuthor-removeBg.9b6965a8775ef6bf3719.png",
@@ -15,12 +16,12 @@
     "static/media/prettyPleaseBook.jpeg": "/fischetti/static/media/prettyPleaseBook.e1189f94ffc356b267d1.jpeg",
     "static/media/stoneHengeWhite.png": "/fischetti/static/media/stoneHengeWhite.6116356856dcc9b07082.png",
     "index.html": "/fischetti/index.html",
-    "main.723d29a1.css.map": "/fischetti/static/css/main.723d29a1.css.map",
-    "main.f033d7aa.js.map": "/fischetti/static/js/main.f033d7aa.js.map",
+    "main.33c42a62.css.map": "/fischetti/static/css/main.33c42a62.css.map",
+    "main.ec87ab5c.js.map": "/fischetti/static/js/main.ec87ab5c.js.map",
     "787.fa1be493.chunk.js.map": "/fischetti/static/js/787.fa1be493.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.723d29a1.css",
-    "static/js/main.f033d7aa.js"
+    "static/css/main.33c42a62.css",
+    "static/js/main.ec87ab5c.js"
   ]
 }

@@ -206,7 +206,11 @@ function Reviews() {
                   fan of all Washington D.C. area teams and the University of
                   Maryland.
                 </div>
-                <Link to="reviews" className="text-lg py-12 text-white flex ">
+                <a
+                  href="https://www.webwire.com/ViewPressRel.asp?aId=299070"
+                  target="_blank"
+                  className="text-lg py-12 text-white flex "
+                >
                   Source{" "}
                   <IconContext.Provider
                     value={{
@@ -215,7 +219,7 @@ function Reviews() {
                   >
                     <AiOutlineRight />
                   </IconContext.Provider>
-                </Link>
+                </a>
                 <div>
                   <div className="text-5xl font-bold text-white">Amazon</div>
                   <div className="text-4xl font-bold py-6 text-white text-center">
@@ -338,7 +342,11 @@ function Reviews() {
                   through, and smelling the night air as the moon crosses the
                   sky.
                 </div>
-                <Link to="reviews" className="text-lg py-12 text-white flex ">
+                <a
+                  href="https://www.webwire.com/ViewPressRel.asp?aId=297523"
+                  target="_blank"
+                  className="text-lg py-12 text-white flex "
+                >
                   Source{" "}
                   <IconContext.Provider
                     value={{
@@ -347,7 +355,7 @@ function Reviews() {
                   >
                     <AiOutlineRight />
                   </IconContext.Provider>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
@@ -455,7 +463,11 @@ function Reviews() {
               achieved. And it’s fitting that the legacy of Walter Johnson
               continues via his home runs and achievements.
             </div>
-            <Link to="reviews" className="text-lg py-12 text-white flex ">
+            <a
+              href="https://www.webwire.com/ViewPressRel.asp?aId=299070"
+              className="text-lg py-12 text-white flex "
+              target="_blank"
+            >
               Source{" "}
               <IconContext.Provider
                 value={{
@@ -464,7 +476,7 @@ function Reviews() {
               >
                 <AiOutlineRight />
               </IconContext.Provider>
-            </Link>
+            </a>
           </div>
           <div>
             <div className="text-5xl font-bold text-white">Amazon</div>

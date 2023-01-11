@@ -14,7 +14,11 @@ function ContactUs() {
                   <div class="md:mt-12 lg:mt-0 mb-12 lg:mb-0 ">
                     <div class="block rounded-lg shadow-lg  py-12 px-12 p-8 border-2 mr-4 border-black bg-white">
                       <h2 class="text-3xl font-bold mb-12">Contact us</h2>
-                      <form>
+                      <form
+                        action="https://formsubmit.co/kevinbryanbuenaseda@gmail.com"
+                        method="POST"
+                        target="_blank"
+                      >
                         <div class="form-group mb-6">
                           <input
                             type="text"
@@ -39,20 +43,6 @@ function ContactUs() {
                             placeholder="Message"
                           ></textarea>
                         </div>
-                        <div class="form-group form-check text-center mb-6">
-                          <input
-                            type="checkbox"
-                            class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer"
-                            id="exampleCheck87"
-                            checked
-                          />
-                          <label
-                            class="form-check-label inline-block text-gray-800"
-                            for="exampleCheck87"
-                          >
-                            Send me a copy of this message
-                          </label>
-                        </div>
                         <button
                           type="submit"
                           class="w-full px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
@@ -65,7 +55,7 @@ function ContactUs() {
                   <div class="md:mb-12 lg:mb-0 p-8 border-2 border-black shadow-lg rounded-lg">
                     <div class="h-[700px] relative shadow-lg rounded-lg ">
                       <iframe
-                        src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3367.5254364073903!2d-110.94634338482673!3d32.43186778107766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86d60dce73ac8bab%3A0x87ded41bbd072dd7!2s1846%20E%20Innovation%20Park%20Dr%20STE%20100%2C%20Oro%20Valley%2C%20AZ%2085755%2C%20USA!5e0!3m2!1sen!2sph!4v1673444138407!5m2!1sen!2sph"
                         class="left-0 top-0 h-full w-full absolute rounded-lg"
                         frameborder="0"
                         allowfullscreen
