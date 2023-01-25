@@ -111,7 +111,7 @@ function Author() {
           </div>
           <div class="flex bg-black text-white p-10">
             <div class=" my-auto px-16">
-              <h1 class="text-3xl uppercase">Paul Edmund Fischetti</h1>
+              <h1 class="text-3xl uppercase">P.E. Fischetti</h1>
               <p class="font-semibold mb-5">Writer</p>
               <p className=" overflow-y-scroll max-h-[65vh]">
                 P. E. Fischetti, born and raised in the suburbs of Washington

@@ -147,7 +147,7 @@ function Landing() {
 
             <div className="md:text-lg sm:text-sm text-lg md:text-start text-center flex flex-col justify-center">
               <div className="lg:text-4xl md:text-2xl pb-4 font-semibold">
-                Paul Edmund Fischetti
+                P.E. Fischetti
               </div>
               <div className="text-justify">
                 P. E. Fischetti, born and raised in the suburbs of Washington
